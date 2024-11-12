@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "testEnvironment": "node",
+  "testRegex": "(/__test__/.*|(\\.|/)(test|spec))\\.js",
+  "setupFiles": ["<rootDir>/test/setupTest.js"],
+  "testPathIgnorePatterns": ["/node_modules/"]
+}
