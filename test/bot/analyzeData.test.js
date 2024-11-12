@@ -1,4 +1,4 @@
-const { analyzeData } = require("../../src/bot/analyzeData");
+const { analyzeData } = require("../../src/bot/helper/analyzeData");
 describe("Analyze data", () => {
   it("should analyze data and return the values", () => {
     const mockedData = [
